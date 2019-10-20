@@ -13,8 +13,8 @@ Open the OSTicket file `include/staff/header.inc.php` and insert after the follo
 <!-- Around line 47 -->
 <link type="text/css" rel="stylesheet" href="<?php echo ROOT_PATH ?>scp/css/translatable.css"/>
 
-<!-- osticket-dark.css hosted on Privex CDN -->
-<link type="text/css" rel="stylesheet" href="https://cdn.privex.io/github/osticket-dark/osticket-dark.css" />
+<!-- osticket-dark.min.css pre-minified and hosted on Privex CDN -->
+<link type="text/css" rel="stylesheet" href="https://cdn.privex.io/github/osticket-dark/osticket-dark.min.css" />
 ```
 
 # Minification
