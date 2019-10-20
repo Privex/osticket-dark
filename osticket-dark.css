@@ -413,3 +413,19 @@ input[type=submit]:active
     background-color: #2d2d2d;
   }
 
+  /* The word "posted" in the message thread header */
+  div.thread-entry.message .header {
+    color: #555;
+  }
+  
+  /* Customer/Staff name in message thread */
+  div.thread-entry.message .header > b {
+    color: #000;
+  }
+
+  /* Signature preview box under response editor */
+  #resp_sec div.selected-signature {
+    background: #000;
+    color: #fff;
+  }
+
