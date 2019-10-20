@@ -149,6 +149,11 @@ table.list tbody tr.highlight td
   #header
   {
     background-color: #2d2d2d;
+    border-top: 1px solid #aaa;
+  }
+
+  #container {
+    margin: 15px auto 20px auto !important;
   }
 
   #sub_nav
