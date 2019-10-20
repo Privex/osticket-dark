@@ -414,12 +414,12 @@ input[type=submit]:active
   }
 
   /* The word "posted" in the message thread header */
-  div.thread-entry.message .header {
+  div.thread-entry.message .header, div.thread-entry.response .header {
     color: #555;
   }
   
   /* Customer/Staff name in message thread */
-  div.thread-entry.message .header > b {
+  div.thread-entry.message .header > b, div.thread-entry.response .header > b {
     color: #000;
   }
 
