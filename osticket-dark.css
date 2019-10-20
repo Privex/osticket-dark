@@ -1,7 +1,10 @@
-@-moz-document url-prefix("http://hd.kibank.ru/scp/")
-{
-  body,
-html
+"osticket-dark.css" 410L, 5169C                                                                                                                                                            44,3           8%
+/* -----------------------------------------------------------------------------------
+ * Originally found at https://userstyles.org/styles/139070/osticket-dark-theme
+ * Some modifications by Privex Inc.   https://github.com/Privex/osticket-dark
+ * -----------------------------------------------------------------------------------
+ */
+body, html
   {
     background: #2d2d2d;
     color: #bcbcbc;
@@ -401,18 +404,8 @@ input[type=submit]:active
     background-color: #2d2d2d;
   }
 
-  #logo > img
-  {
-    content: url('http://hd.kibank.ru/scp/images/logo.png');
-  }
-
   table.dashboard-stats tbody:nth-child(2) tr:nth-child(odd)
   {
     background-color: #2d2d2d;
   }
 
-  #kb li
-  {
-    background-image: url(http://hd.kibank.ru/scp/images/kb_large_folder.png), url(http://hd.kibank.ru/scp/images/kb_category_bg_2d2d2d.png);
-  }
-}
