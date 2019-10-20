@@ -47,6 +47,10 @@ body, html
     border-bottom: 2px solid #2d2d2d;
   }
 
+  .thread-entry .faded.title {
+    color: #712929;
+  }
+
   .ticket_info
   {
     background: #2d2d2d;
